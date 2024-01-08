@@ -54,9 +54,56 @@ To italicize text, add one asterisk or underscore before and after a word or phr
 
 To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.
 
-| Name                                 |   | Markdown Syntax                          |
-|--------------------------------------|---|------------------------------------------|
-| This text is ***really important***. | - | This text is ***  #  ***.   |
-| This text is ___really important___. | - | This text is ___ #  ___.   |
-| This text is __*really important*__. | - | This text is __* #  *__. |
-| This text is **_really important_**. | - | This text is **_ # _**.  | 
+| Name                                 |   | Markdown Syntax           |
+|--------------------------------------|---|---------------------------|
+| This text is ***really important***. | - | This text is ***  #  ***. |
+| This text is ___really important___. | - | This text is ___ #  ___.  |
+| This text is __*really important*__. | - | This text is __* #  *__.  |
+| This text is **_really important_**. | - | This text is **_ # _**.   |
+
+
+# Blockquotes
+
+To create a blockquote, add a > in front of a paragraph
+>  This is a blockquote example
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+
+## Nested Blockquotes
+
+Blockquotes can be nested. Add a >> in front of the paragraph you want to nest.
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>>  The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with 
+> 
+
+# Lists
+You can organize items into ordered and unordered lists.
+
+## Ordered Lists
+To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
+
+| Name           |   | Markdown Syntax |
+|----------------|---|-----------------|
+| 1. First item  | - | 1. First item   |
+| 2. Second item | - | 2. Second item  |
+| 3. Third       | - | 3. Third        |
+| 4. Fourth.     | - | 4. Fourth.      |
+
+## Unordered Lists
+
+To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list.
+
+
+| Markdown Syntax |
+|-----------------|
+| -  First item   |
+| * First item    |
+| + First item    |
+
+### Code Snippets
+
+-  First item
+* First item
++ First item
