@@ -102,8 +102,51 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
 | * First item    |
 | + First item    |
 
-### Code Snippets
+### Output
 
 -  First item
 * First item
 + First item
+
+## Code Blocks
+Code blocks are normally indented four spaces or one tab. When they’re in a list, indent them eight spaces or two tabs.
+
+1. Open the file.
+2. Find the following code block on line 21:
+
+        <html>
+          <head>
+            <title> Code hariom t</title>
+          </head>
+
+3. Update the title to match the name of your website.
+
+## Images
+[AlT text of Image]( Image URL)
+
+# Code
+To denote a word or phrase as code, enclose it in backticks (`).
+
+At the command prompt, type `Codehariom`. 
+# Links
+
+To create a link, enclose the link text in brackets (e.g., [Duck Duck Go]) and then follow it immediately with the URL in parentheses (e.g., (https://www.linkedin.com/in/realhariom/)).
+
+Our Linkedin Profile link  [Follow on Linkedin ](https://www.linkedin.com/in/realhariom/).
+
+# Tables
+To add a table, use three or more hyphens (---) to create each column’s header, and use pipes (|) to separate each column. For compatibility, you should also add a pipe on either end of the row.
+
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+## Alignment
+You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
