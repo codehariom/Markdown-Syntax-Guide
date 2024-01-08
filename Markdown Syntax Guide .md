@@ -56,8 +56,7 @@ To emphasize text with bold and italics at the same time, add three asterisks or
 
 | Name                                 |   | Markdown Syntax                          |
 |--------------------------------------|---|------------------------------------------|
-| This text is ***really important***. | - | This text is ***really important*** .   |
-| This text is ___really important___. | - | This text is ___really important___.   |
-| This text is __*really important*__. | - | This text is __ * really important * __. |
-| This text is **_really important_**. | - | This text is **_really important_**.  | 
-
+| This text is ***really important***. | - | This text is ***  #  ***.   |
+| This text is ___really important___. | - | This text is ___ #  ___.   |
+| This text is __*really important*__. | - | This text is __* #  *__. |
+| This text is **_really important_**. | - | This text is **_ # _**.  | 
